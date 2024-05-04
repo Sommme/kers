@@ -1,0 +1,104 @@
+body {
+    background-color: #121212;
+    font-family: 'Bellefair', serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 1.5%;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 2; 
+}
+
+.menu a {
+    color: rgb(205,170,81);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px; 
+}
+
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 18%; 
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin-top: 5%;
+    position: relative;
+}
+
+.image-container img {
+    max-width: 100%;
+    width: 80%; 
+    height: auto; 
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-image img {
+    margin-top: 40%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    margin-top: 16%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(205,170,81);
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+.image-container-two {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    margin-top: 0%;
+    position: relative;
+}
+
+.image-container-two img {
+    max-width: 100%;
+    width: 70%; 
+    height: auto; 
+}
+
+.overlay-image-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.overlay-image-two img {
+    margin-top: 0%;
+    width: 120%;
+    height: auto;
+}
+
