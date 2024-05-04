@@ -30,8 +30,6 @@
             <img src="{{asset('assets/images/Frame 9.png') }}" alt="2">
         </div>
     </div>
-    
-
-    
+    ,,KF,KF,K,FK,FK 
 </body>
 </html>
