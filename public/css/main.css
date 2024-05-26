@@ -102,3 +102,12 @@ body {
     height: auto;
 }
 
+.overlay-global-text {
+    position: absolute;
+    margin-top: 10%;
+    /*transform: translate(-50%, -50%);*/
+    color: rgb(205,170,81);
+    font-size: 70px;
+    text-align: center;
+    z-index: 3;
+}

@@ -23,13 +23,14 @@
             <div class="overlay-text">WE PRESERVE HISTORY TO BUILD FUTURE</div>
         </div>
     </div>
-        
+    <div class="overlay-global-text">THE WORLD’S LEADING MUSEUM</div>
     <div class="image-container-two">
         <img src="{{asset('assets/images/w.png') }}" alt="1">
         <div class="overlay-image-two">
             <img src="{{asset('assets/images/Frame 9.png') }}" alt="2">
         </div>
     </div>
-    ,,KF,KF,K,FK,FK 
+
+    пробная для гита 2605
 </body>
 </html>
