@@ -6,19 +6,20 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    margin-top: 1.5%;
     position: fixed; 
     width: 100%; 
     top: 0; 
     z-index: 2; 
 }
 
+
 .menu a {
     color: rgb(205,170,81);
     text-decoration: none;
     font-size: 20px;
-    padding: 0 20px; 
+    padding: 10px 20px; 
+    margin-top: 1.5%;
+    text-shadow: 3px 2px 2px rgba(153, 153, 153, 0.5);
 }
 
 .logo-container {
@@ -108,6 +109,18 @@ body {
     /*transform: translate(-50%, -50%);*/
     color: rgb(205,170,81);
     font-size: 70px;
+    text-align: center;
+    z-index: 3;
+    margin-left: 4%;
+}
+
+.overlay-global-text-small {
+    position: absolute;
+    margin-top: 25%;
+    font-family: 'Lato', serif;
+    font-style: italic;
+    color: rgb(205,170,81);
+    font-size: 30px;
     text-align: center;
     z-index: 3;
 }
