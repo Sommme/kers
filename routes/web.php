@@ -24,3 +24,7 @@ Route::get('/exhibitslist', function () {
 Route::get('/exhibition', function () {
     return view('exhibition');
 });
+
+Route::get('/authorization', function () {
+    return view('authorization');
+});

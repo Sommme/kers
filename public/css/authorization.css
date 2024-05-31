@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(241, 241, 241, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(205,170,81, 0.25), 0 0 30px rgb(205,170,81, 0.25);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #888; /*color text*/
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab.active {
+    color: #000;
+    border-bottom: 2px solid rgb(205,170,81);
+}
+
+.form-container {
+    position: relative;
+}
+
+.form {
+    display: none;
+    flex-direction: column;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.form input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.form button {
+    border-radius: 20px;
+    border: 1px solid rgb(205,170,81);
+    background: rgb(205,170,81);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+}
+
+.form button:active {
+    transform: scale(0.95);
+}
+
+.form button:focus {
+    outline: none;
+}
+
+.form.active {
+    display: flex;
+}
+
+.back-link {
+    display: block;
+    text-align: left;
+    color: #888;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

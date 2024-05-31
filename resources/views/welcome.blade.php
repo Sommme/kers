@@ -13,11 +13,20 @@
             <img src="{{asset('assets/images/logo.png') }}" alt="Logo" class="logo"> 
         </div>
 
-        <ul class="menu">
-            <li>HOME</li>
-            <li>EXHIBITIONS</li>
-            <li>EXHIBITS</li>
-            <li>CONTACTS</li>
+        
+            <ul class="menu">
+                <li>HOME</li>
+                <li>EXHIBITIONS</li>
+                <li>EXHIBITS</li>
+                <li>CONTACTS</li>
+                <li class="login"><a href="/authorization">LOG IN</a></li>
+            </ul>
+
+        {{-- <div class="login">
+            <a href="/login">LOGIN</a> 
+        </div> --}}
+
+
     </header>
 
     {{-- <div class="image-container">
