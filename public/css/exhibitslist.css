@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    font-family: 'Bellefair', serif;
+}
+
+.gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.item {
+    background-color: #121212;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33% - 20px);
+    height: fit-content;
+    /* flex-wrap: wrap; */
+    
+}
+
+.gallery .item img:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    padding: 15px;
+    text-align: center;
+}
+
+.caption h3 {
+    margin: 10px 0 5px;
+    font-size: 1.25em;
+    color: #555;
+}
+
+.caption p {
+    margin: 0;
+    color: #555;
+}

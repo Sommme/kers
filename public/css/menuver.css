@@ -1,0 +1,36 @@
+header{
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+header .logo{
+    margin-left: -100%;
+    width: 100%;
+}
+
+header .menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+header ul li{
+    color: rgb(205,170,81);
+    text-shadow: 3px 2px 2px rgba(153, 153, 153, 0.5);
+    padding: 10px 20px; 
+    font-family: 'Bellefair', serif;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
